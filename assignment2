@@ -1,0 +1,16 @@
+a=[]
+n=int(input('enter n: '))
+for i in range(1,n+1):
+    b=int(input())
+    a.append()
+a.reverse()
+print(a)
+
+output:
+enter n: 5
+7
+0
+98
+5
+3
+the reverse list is:  [3, 5, 98, 0, 7]
