@@ -1,0 +1,26 @@
+A=[]
+n=int(input('enter n: '))
+for i in range(n): #0 to n-1
+    e=int(input())
+    A.append(e)
+    
+min=A[0]
+max=A[0]
+for i in range(1,n):
+    if A[i]<max:
+        min=A[i]
+    if A[i]>max:
+        max=A[i]
+
+print('minimum value: ',min)
+print('maixmum value: ',max)
+
+output:
+enter n: 5
+1
+2
+3
+4
+0
+minimum value:  0
+maximum value:  4
